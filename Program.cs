@@ -4,11 +4,15 @@ Console.WriteLine("----------------");
 Console.WriteLine("----Múltiplo----");
 Console.WriteLine("----------------");
 
-Console.WriteLine("Digite um número......: ");
+Console.Write("Digite um número......: ");
 n1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Avaliar se é múltiplo de...: ");
+Console.WriteLine();
+
+Console.Write("Avaliar se é múltiplo de...: ");
 n2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine();
 
 resto = n1 % n2;
 
