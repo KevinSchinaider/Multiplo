@@ -25,3 +25,5 @@ else
     Console.WriteLine($"{n1} não é múltiplo de {n2}");
 
 }
+
+Console.WriteLine("\nAdeusssss.");
