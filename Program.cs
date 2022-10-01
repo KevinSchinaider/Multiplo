@@ -26,4 +26,4 @@ else
 
 }
 
-Console.WriteLine("\nAdeusssss.");
+Console.WriteLine("\nAdeusssss!");
