@@ -4,15 +4,13 @@ Console.WriteLine("----------------");
 Console.WriteLine("----Múltiplo----");
 Console.WriteLine("----------------");
 
-Console.WriteLine("Digite o primeiro número: ");
+Console.WriteLine("Digite um número......: ");
 n1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Digite o segundo número: ");
+Console.WriteLine("Avaliar se é múltiplo de...: ");
 n2 = Convert.ToInt32(Console.ReadLine());
 
 resto = n1 % n2;
-
-bool ehMultiplo = resto == 0;
 
 if (resto == 0)
 {
